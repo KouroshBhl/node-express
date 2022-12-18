@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to app')
 })
 
-//! Listen PORT 3000
+//! Listen PORT
 app.listen(port, () => {
   console.log('Listening for 3000 port')
 })

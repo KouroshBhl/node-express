@@ -9,9 +9,17 @@ const {
 
 const router = express.Router()
 
-router.get('/', getAllTasks).post(createTask)
+router.get('/', getAllTasks)
+router.post('/', createTask)
 router.get('/:id', getTask)
 router.patch('/:id', updateTask)
 router.delete('/:id', deleteTask)
 
 module.exports = router
+//eovendors.com
+//eovendor.com
+//vendorseye.com
+//rpgvendor.com
+//vendorip.com
+//ggvendor.com
+//zana.gg
